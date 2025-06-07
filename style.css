@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f3ee;
+  color: #333;
+}
+
+.animated-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 20px 0;
+  animation: fadeIn 2s ease-in-out;
+  color: #6b4f4f;
+}
+
+#map {
+  height: 85vh;
+  width: 100%;
+  border-top: 3px solid #cbb9a6;
+}
+
+#status {
+  text-align: center;
+  padding: 8px;
+  background-color: #fff3cd;
+  color: #856404;
+  font-weight: bold;
+  display: none;
+}
+
+.leaflet-popup-content {
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
